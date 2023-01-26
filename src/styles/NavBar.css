@@ -1,0 +1,21 @@
+.NavBarBackground {
+    display: flexbox;
+    align-items: center;
+    padding: 20px;
+    flex-direction: column;
+    background-color: black;
+    width: max-content;
+}
+
+.NavButton {
+    background-color: lightgray;
+    display: flex;
+    flex: auto;
+    margin: 10px;
+    width: 150px;
+    align-items: center;
+    justify-content: center;
+    font-size: medium;
+    font: 400;
+    border-radius: 20px;
+}

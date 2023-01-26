@@ -1,35 +1,34 @@
 import '../styles/NavBar.css';
-import React from 'react';
-import CurrentView from './CurrentView';
+import React,{Component} from 'react';
 
 
 
-const NavBar = (props) => {
+class NavBar extends Component{
+    constructor(props) {
+        super(props);
+    }
 
+    render(){
 
-    return (
+        return (
 
-        <>
-        
-        <div className='NavBarBackground'>
+            <>
+            
+            <div className='NavBarBackground'>
 
-            <button className='HomeButton'> Home </button>
-            <button className='LogisticsButton'> Logistics </button>
-            <button className='HowButton'> How We Work </button>
-            <button className='AboutButton'> About Us </button>
-            <button className='ContactButton'> Contact Us </button>
+                <button className='HomeButton NavButton' onClick={() => this.props.updateNavigation("Home")}> Home </button>
+                <button className='LogisticsButton NavButton' onClick={() => this.props.updateNavigation("Logistics")}> Logistics </button>
+                <button className='HowButton NavButton' onClick={() => this.props.updateNavigation("How")}> How We Work </button>
+                <button className='AboutButton NavButton' onClick={() => this.props.updateNavigation("About")}> About Us </button>
+                <button className='ContactButton NavButton' onClick={() => this.props.updateNavigation("Contact")}> Contact Us </button>
 
+            </div>
 
-        </div>
-        
-        <CurrentView CurrentViewMarker/>
-        
-        </>
+            </>
 
+        );            
 
-
-    );
-
-};
+    };
+}
 
 export default NavBar;

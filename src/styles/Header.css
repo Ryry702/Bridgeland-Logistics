@@ -29,9 +29,9 @@ justify-content: space-between;
 }
 
 .CompanyNameContainer{
-    display: flex;
+    display: block;
     border-color: black;
-    background-color: aqua;
+    background-color: blue;
     border: 0px;
     border-radius: 30px;
     height: 150px;
