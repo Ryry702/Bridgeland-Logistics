@@ -34,7 +34,7 @@ class App extends Component {
     <>
       <Header />
         <div className='NavContent'>
-            <NavBar CurrentViewMarker={this.state} updateNavigation={this.updateNav}/>
+            <NavBar className='NavBar' CurrentViewMarker={this.state} updateNavigation={this.updateNav}/>
             <CurrentView CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>
         </div>
     

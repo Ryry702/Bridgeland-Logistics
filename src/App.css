@@ -1,5 +1,10 @@
 
 .NavContent{
   display: flexbox;
+
 }
 
+.NavBar{
+  flex: auto;
+  flex-direction: column;
+}

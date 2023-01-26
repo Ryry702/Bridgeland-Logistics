@@ -1,3 +1,4 @@
+import '../styles/Home.css'
 import DumpTruckPic from '../images/DumpTruck.jpg'
 
 const Home = () => {
