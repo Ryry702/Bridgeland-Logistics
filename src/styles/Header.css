@@ -1,18 +1,21 @@
-header {
+.Header {
     display: flex;
-    height: 200px;
+    height: 150px;
     padding: 0px;
-    background-color: black;
+    background-color: none;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
 }
 
 .HeaderTitle{
 display: flex;
 flex-direction: row;
 align-items: center;
-justify-content: space-between;
+justify-content: space-evenly;
+width: 100%;
+padding: 30px;
 }
 
 .LogoContainer{
@@ -26,6 +29,7 @@ justify-content: space-between;
     border-radius: 75px;
     height: 150px;
     width: 150px;
+    margin: 100px;
 }
 
 .CompanyNameContainer{
@@ -34,7 +38,8 @@ justify-content: space-between;
     background-color: blue;
     border: 0px;
     border-radius: 30px;
-    height: 150px;
+    height: 125px;
+    width: 1000px;
     justify-content: center;
     align-items: center;
     

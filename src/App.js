@@ -32,12 +32,13 @@ class App extends Component {
     return (
     
     <>
-      <Header />
-        <div className='NavContent'>
-            <NavBar className='NavBar' CurrentViewMarker={this.state} updateNavigation={this.updateNav}/>
-            <CurrentView CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>
+        <div className='Everything'>
+          <Header className='Header'/>
+            <div className='NavContent'>
+                <NavBar className='NavBar' CurrentViewMarker={this.state} updateNavigation={this.updateNav}/>
+                <CurrentView className='CurrentView' CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>
+            </div>
         </div>
-    
     </>
   
   );

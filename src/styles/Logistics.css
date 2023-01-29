@@ -1,0 +1,9 @@
+.LogContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.LogPara{
+    flex: auto;
+    font-size: large;
+}

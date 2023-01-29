@@ -39,7 +39,7 @@ render() {
    return (<Contact />);
    ;
 
-   return(<Home/>)
+   return(<Home />)
 
 }
 }

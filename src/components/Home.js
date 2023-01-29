@@ -1,15 +1,21 @@
-import '../styles/Home.css'
-import DumpTruckPic from '../images/DumpTruck.jpg'
+import '../styles/Content.css'
+import TwoTrains from '../images/TwoTrains.jpg'
+import LoadingShip from '../images/LoadingShip.jpg'
 
 const Home = () => {
     return(
 
         <>
         
-            <div className='HomeContainer'>
-                <p className='HomePara'>Bridgeland Logistics, a division of Bridgeland Industrial Group is a solution to your logistics needs. </p>
-                <img src={DumpTruckPic} alt="background"/>
-                <p className='HomePara'>Home</p>
+            <div className='FlexContainer'>
+                <p className='Title'>Bridgeland Logistics</p>
+                
+                <div className='PicBox'>
+                    <img className='Pic' src={TwoTrains} alt="Two trains"/>
+                    <img className='Pic' src={LoadingShip} alt="A ship being loaded"/>
+                </div>
+
+                <p className='Para'>Bridgeland Logistics, a division of Bridgeland Industrial Group is the solution to your logistics needs. </p>
             </div>
         </>
         

@@ -1,0 +1,33 @@
+.FlexContainer{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    margin-top: 250px;
+        
+}
+
+.Para{
+    flex: auto;
+    font-size: x-large;
+    text-align: center;
+}
+
+.Title{
+flex: auto;
+font-size: xx-large;
+text-align: center;
+font-weight: 900;
+}
+
+.Pic{
+    flex: 0 1 1;
+    margin: 50px;
+    width: 500px;
+    height: auto;
+    border-radius: 50px;
+}
+
+.PicBox{
+    display: flex;
+    justify-content: center;
+}

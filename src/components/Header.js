@@ -4,7 +4,7 @@ import '../styles/Header.css';
 
 const Header = (props) => {
     return (
-        <header>
+        <header className='Header'>
             <div className='HeaderTitle'>
                 <div className='LogoContainer'>
 
