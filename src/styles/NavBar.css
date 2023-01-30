@@ -10,10 +10,10 @@
     border: 20px;
     border-color: black;
     margin-top: 150px;
+    flex: 1 1 1;
 }
 
 .NavButton {
-    background-color: rgb(158, 171, 190);
     display: flex;
     flex: auto;
     margin: 10px;
@@ -27,4 +27,11 @@
     opacity: 100%;
     font-size: xx-large;
     font-weight: 900;
+    background-color: blue;
+    
+}
+
+.NavButton:hover {
+    transform: scale(1.2);    
+    border-style: solid;
 }

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import Header from './components/Header';
 import NavBar from './components/NavBar';
 import CurrentView from './components/CurrentView';
+import Footer from './components/Footer';
 
 class App extends Component {
   constructor(props) {
@@ -36,8 +37,9 @@ class App extends Component {
           <Header className='Header'/>
             <div className='NavContent'>
                 <NavBar className='NavBar' CurrentViewMarker={this.state} updateNavigation={this.updateNav}/>
-                <CurrentView className='CurrentView' CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>
+                <CurrentView className='CurrentView' CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>   
             </div>
+            <Footer className='Footer'/>
         </div>
     </>
   

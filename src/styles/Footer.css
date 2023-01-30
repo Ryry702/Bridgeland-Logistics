@@ -1,0 +1,19 @@
+.Footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: blue;  
+    height: 50px;  
+}
+
+.FooterLink {
+    color: black;
+}
+
+.FooterLink:hover{
+    transform: scale(1.2);
+}
+
+.FooterLink:visited{
+    color: darkslategray;
+}
