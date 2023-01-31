@@ -13,7 +13,7 @@ const Header = (props) => {
                 </div>
                 <div className='CompanyNameContainer'>
 
-                    <h1>Bridgeland Logistics</h1>
+                    <h1 className='CompanyName'>Bridgeland Logistics</h1>
 
                 </div>
                 

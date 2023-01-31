@@ -1,12 +1,14 @@
-.Header {
+.Header{
     display: flex;
-    height: 150px;
+    height: 65px;
     padding: 0px;
     background-color: none;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    position: fixed;
+    position: absolute;
+    top: 15px;
+    width: 100%;
 }
 
 .HeaderTitle{
@@ -20,7 +22,7 @@ position: fixed;
 }
 
 .LogoContainer{
-    display: flex;
+    display: block;
     align-items: center;
     justify-content: center;
     border: 0px;
@@ -28,9 +30,9 @@ position: fixed;
     background-color: blue;
     border-color: black;
     border-radius: 50%;
-    height: 150px;
-    width: 150px;
-    margin: 100px;
+    height: 100px;
+    width: 100px;
+    margin: 0;
 }
 
 .CompanyNameContainer{
@@ -39,15 +41,16 @@ position: fixed;
     background-color: blue;
     border: 0px;
     border-radius: 30px;
-    height: 125px;
-    width: 1000px;
+    height: 100px;
+    width: 80%;
     justify-content: center;
     align-items: center;
     
     
 }
 
-h1 {
+.CompanyName{
+    display: flex;
     flex: auto;
     font-size: 2.5rem;
     margin: 3px;

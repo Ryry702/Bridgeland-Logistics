@@ -40,6 +40,7 @@ class App extends Component {
                 <CurrentView className='CurrentView' CurrentViewMarker={this.state} returnNavigation={this.returnNav}/>   
             </div>
             <Footer className='Footer'/>
+            
         </div>
     </>
   

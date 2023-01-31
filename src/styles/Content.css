@@ -2,8 +2,8 @@
     display: flex;
     flex-direction: column;
     padding: 50px;
-    margin-top: 250px;
-        
+    margin-top: 200px;
+    width: 80%;
 }
 
 .Para{
@@ -21,10 +21,10 @@ font-weight: 900;
 
 .Pic{
     flex: 0 1 1;
-    margin: 50px;
-    width: 500px;
+    margin: 5%;
+    width: 40%;
     height: auto;
-    border-radius: 50px;
+    border-radius: 10%;
 }
 
 .PicBox{
